@@ -1,0 +1,122 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+    color: #333;
+}
+.navbar {
+
+    background-color: #51a3a3; /* Teal background */
+    overflow: hidden;
+    padding: 10px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.navbar ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    padding: 10px 20px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.navbar ul li a:hover {
+    background-color: #ff6f61; /* Coral color on hover */
+    color: white;
+    border-radius: 5px;
+}
+
+/* Paragraph Styles */
+p {
+    margin: 0 0 1em 0;
+    font-size: 16px;
+}
+
+/* Heading 3 Styles */
+h3 {
+    font-size: 24px;
+    color: #0056b3;
+    margin: 1.5em 0 0.5em 0;
+}
+
+/* Heading 4 Styles */
+h4 {
+    font-size: 20px;
+    color: #0056b3;
+    margin: 1.25em 0 0.5em 0;
+}
+
+/* Unordered List Styles */
+ul {
+    list-style-type: disc;
+    margin: 0 0 1em 1.5em;
+    padding: 0;
+}
+
+/* List Item Styles */
+li {
+    margin: 0.5em 0;
+    font-size: 16px;
+}
+footer {
+    background-color: #51a3a3; /* Teal background */
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+    position:relative;
+    width: 100%;
+    bottom: 0;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.footer-content {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 1em;
+}
+
+.footer-content p {
+    margin: 0.5em 0;
+}
+
+.footer-content a {
+    color: #ff6f61; /* Coral color */
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.footer-content a:hover {
+    color: #ff8563; /* Lighter coral on hover */
+}
+
+.social-media a {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.social-media img {
+    width: 24px;
+    height: 24px;
+    transition: transform 0.3s;
+}
+
+.social-media img:hover {
+    transform: scale(1.1);
+}
