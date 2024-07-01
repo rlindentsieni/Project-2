@@ -1,0 +1,17 @@
+body{ text-align: center;}
+
+.bigbox{display: grid; 
+    grid-template-columns: repeat(4, 1fr); 
+    gap: 5px;
+border-radius: 12px}
+
+.box1{background-color: mediumseagreen;}
+.box2{background-color: black; color: aliceblue;}
+.box3{background-color: plum;}
+.box4{background-color: yellow;}
+.bigbox div{
+    border-radius: 10%;
+    font-style: italic ;
+    width: 85%;
+
+}
